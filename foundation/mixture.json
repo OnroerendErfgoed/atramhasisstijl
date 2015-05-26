@@ -1,6 +1,10 @@
 {
   "convertHtml": {
-    "relativePaths": false
+    "extension": ".html",
+    "path": null,
+    "ignoreUrls": null,
+    "relativePaths": true,
+    "default": null
   },
   "debug": false,
   "domain": null,
@@ -8,10 +12,11 @@
   "modelSource": null,
   "preprocessorLocations": [
     "bower_components/foundation/scss",
-    "assets"
+    "static/scss",
+    "static"
   ],
-  "preprocessorScriptOutput": "assets/js",
-  "preprocessorStyleOutput": "assets/css",
+  "preprocessorScriptOutput": "static/js",
+  "preprocessorStyleOutput": "static/css",
   "projectDescription": "The most advanced responsive front-end framework in the world.",
   "projectName": "Atramhasis",
   "publishedId": null,
