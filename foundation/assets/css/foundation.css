@@ -4072,7 +4072,7 @@ meta.foundation-mq-topbar {
       margin: 0; }
       .top-bar .name h1 a {
         font-weight: normal;
-        color: black;
+        color: #333;
         width: 75%;
         display: block;
         padding: 0 30px; }
@@ -4081,7 +4081,7 @@ meta.foundation-mq-topbar {
     right: 0;
     top: 0; }
     .top-bar .toggle-topbar a {
-      color: black;
+      color: #333;
       text-transform: uppercase;
       font-size: 0.8125rem;
       font-weight: bold;
@@ -4097,7 +4097,7 @@ meta.foundation-mq-topbar {
         height: 34px;
         line-height: 33px;
         padding: 0 55px 0 30px;
-        color: #FFFFFF;
+        color: #a5a5a5;
         position: relative; }
         .top-bar .toggle-topbar.menu-icon a span::after {
           content: "";
@@ -4107,7 +4107,7 @@ meta.foundation-mq-topbar {
           top: 50%;
           margin-top: -8px;
           right: 30px;
-          box-shadow: 0 0px 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
+          box-shadow: 0 0px 0 1px #a5a5a5, 0 7px 0 1px #a5a5a5, 0 14px 0 1px #a5a5a5;
           width: 16px; }
         .top-bar .toggle-topbar.menu-icon a span:hover:after {
           box-shadow: 0 0px 0 1px "", 0 7px 0 1px "", 0 14px 0 1px ""; }
@@ -4143,7 +4143,7 @@ meta.foundation-mq-topbar {
     .top-bar-section ul li > a {
       display: block;
       width: 100%;
-      color: black;
+      color: #333;
       padding: 12px 0 12px 0;
       padding-left: 30px;
       font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -4256,7 +4256,7 @@ meta.foundation-mq-topbar {
       width: 0;
       height: 0;
       border: inset 5px;
-      border-color: transparent transparent transparent rgba(247, 127, 0, 0.8);
+      border-color: transparent transparent transparent rgba(247, 127, 0, 0.9);
       border-left-style: solid;
       margin-right: 30px;
       margin-top: -4.5px;
@@ -4301,7 +4301,7 @@ meta.foundation-mq-topbar {
         margin-top: 0;
         font-size: 1.125rem; }
         .top-bar-section .dropdown li.title h5 a, .top-bar-section .dropdown li.parent-link a {
-          color: black;
+          color: #333;
           display: block; }
           .top-bar-section .dropdown li.title h5 a:hover, .top-bar-section .dropdown li.parent-link a:hover {
             background: none; }
@@ -4383,7 +4383,7 @@ meta.foundation-mq-topbar {
         width: 0;
         height: 0;
         border: inset 5px;
-        border-color: rgba(247, 127, 0, 0.8) transparent transparent transparent;
+        border-color: rgba(247, 127, 0, 0.9) transparent transparent transparent;
         border-top-style: solid;
         margin-top: -2.5px;
         top: 30px; }
