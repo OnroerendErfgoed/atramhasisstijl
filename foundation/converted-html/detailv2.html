@@ -1,0 +1,468 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Foundation 5</title>
+  		<link href="/assets/css/foundation.min.css" rel="stylesheet" type="text/css" media="all"/>
+  		<script src="/bower_components/foundation/js/vendor/modernizr.js"></script>
+
+  		<style>
+
+  		 @font-face {
+    font-family: 'amblebold';
+    src: url('fonts/Amble-Bold-webfont.eot');
+    src: url('fonts/Amble-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Bold-webfont.woff') format('woff'),
+         url('fonts/Amble-Bold-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Bold-webfont.svg#amblebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+		@font-face {
+		    font-family: 'ambleregular';
+		    src: url('fonts/Amble-Regular-webfont.eot');
+		    src: url('fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('fonts/Amble-Regular-webfont.woff') format('woff'),
+		         url('fonts/Amble-Regular-webfont.ttf') format('truetype'),
+		         url('fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+
+}
+
+
+	body {
+	background:#f0f1f3;
+		max-width:100%;
+		margin:0 auto;
+		font-family: 'ambleregular', sans-serif;
+	}
+
+	a {color:#2b709d;}
+	a:hover {color:#f77f00 !important;}
+/*06C *//*   1c8bd3*/
+
+
+ul.resultlist { margin: 0 20px;padding: 0;list-style-type: none;}
+.resultlist li { text-transform: capitalize; border-top:1px dotted #fff;padding: 0;}
+.resultlist li span { font-size:0.7em;color:#999;margin-left:10px;}
+.resultlist a { display: block;width: 100%;text-decoration: none;height:40px;padding: 10px 0 0 10px;}
+
+.resultlist a:hover { background-color: #f9f9f9;padding: 0px; transition: background .45s ease-in-out; -moz-transition:background .45s ease-in-out; -webkit-transition: background .45s ease-in-out;padding: 10px 0 0 10px;height:40px;}
+
+
+// list
+dl.infolist {font-size:0.7em; font-family: 'ambleregular', sans-serif;}
+.infolist dt {margin-left:0px;font-weight:normal;font-size:0.7em; font-family: 'ambleregular', sans-serif;}
+.infolist dd {margin:-22px 0 0 70px;font-size:0.8em; font-family: 'amblebold', sans-serif;}
+
+
+
+// submenu 
+.nostyleList {
+   list-style: none;
+   margin-left: 0;
+   padding-left: 0;
+  
+ }
+
+
+
+h1 {font-size:2em;color:#f77f00;}
+h2 {font-size:1em;text-transform:uppercase;letter-spacing:4px;color:#999;}
+h3 {font-size:0.7em;text-transform:uppercase;letter-spacing:4px;color:#999;}
+h5 {font-size:0.6em;text-transform:uppercase;}
+
+
+/* title result*/
+
+.title-result {padding:0 20px 10px 20px;font-size:0.7em;color:#666;font-family: 'amblebold', sans-serif;}
+.title-result span {color:#f90;font-size:1em;}
+
+.divider {border:1px solid #f0f1f3;}
+
+
+.scopeNote {font-size:0.9em;}
+ul.scopeNote  {margin:0;padding:0;}
+.scopeNote li {list-style-type:none;list-style-position:outside !important;margin:0;padding:0 0 20px 0;}
+
+
+
+ul.subNav  		{list-style-type:none;list-style-position:outside !important;margin:70px 0 0 0;padding:0;}
+ul.subNav li 	{/*background:#fff;*/margin:10px 0 0 0;padding:5px 10px;font-size:0.8em;text-transform: uppercase;}
+
+ul.subNav2  	{list-style-type:none;list-style-position:outside !important;margin:0;padding:0;}
+ul.subNav2 li 	{margin:0;padding:5px 10px;font-size:0.7em;text-transform: capitalize;}
+
+
+
+/* mag glass large */
+.ico-mglass-large {
+  position: relative;
+  display: inline-block;
+  background: transparent;
+  border-radius: 60px;
+  height: 30px;
+  width: 30px;
+  border: 3px solid #f77f00;margin:10px 0 0 10px;
+}
+.ico-mglass-large:after {
+  content: "";
+  height: 4px;
+  width: 16px;
+  background: #f77f00;
+  position: absolute;
+  top: 26px;
+  left: 18px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+
+
+/* mag glass small */
+.ico-mglass {
+  position: relative;
+  display: inline-block;
+  background: transparent;
+  border-radius: 60px;
+  height: 18px;
+  width: 18px;
+  border: 2px solid #f77f00;margin:10px 0 0 10px;
+}
+.ico-mglass:after {
+  content: "";
+  height: 2px;
+  width: 12px;
+  background: #f77f00;
+  position: absolute;
+  top: 16px;
+  left: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+
+
+.box {background:#fff;margin-bottom:20px;padding:20px 10px 25px 10px;border:1px solid #efefef;}
+.box h5 {font-size:0.6em;text-transform:uppercase;letter-spacing: 3px;color:#333;margin-bottom:20px}
+.box ul {font-size:0.7em;}
+
+
+.subfooter, .subfooterright {padding:0 20px;border-left:2px solid #fff;margin-top:20px;font-size:0.8em}
+.subfooterright {border-right:2px solid #fff;}
+
+/*home*/
+.language {font-size:0.6em;margin:50px 0 0 0}
+.language-active {color:#f77f00;}
+
+.bgcontainer {background:#fff;padding:20px 0;border:1px solid #e5e5e5;}
+
+.home-img_position {position:relative}
+.home-img_position form {position:absolute;z-index:100;width:100%;margin-top:50px}
+
+.logo {margin:10px 20px 0 -32px;}
+
+h1.logotext  {color:#a5a5a5;letter-spacing:16px;font-size:0.7em;margin:30px 0;text-transform:uppercase}
+
+footer {clear:both;margin-top:30px;padding:20px 0;border-top:1px solid #efefef}
+
+
+.ptext {padding:30px 30px 0 0}
+.ptext p, .ptext li {font-size:0.8em}
+
+
+
+ul.no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+li.cube {
+background: url(listitem.png) no-repeat 0 5px;padding-left:15px;
+}
+
+
+        #Slider {
+            cursor: hand
+        }
+        #Actual {
+            background: #fff;
+            color: White;
+            padding: 0px;
+        }
+        .slideup, .slidedown {
+            max-height: 0;            
+            overflow-y: hidden;
+            -webkit-transition: max-height 0.8s ease-in-out;
+            -moz-transition: max-height 0.8s ease-in-out;
+            -o-transition: max-height 0.8s ease-in-out;
+            transition: max-height 0.8s ease-in-out;
+
+        }
+        .slidedown {            
+            max-height: 400px ;                    
+        }    
+
+        .slidenav {background:#fff;color:#000;width:100%;padding:6px 6px;margin:0;text-align:left;}
+        .slidenav:hover {background:#fff;color:#333;width:100%;padding:6px 6px;margin:0;text-align:left;}
+        .slidenav:active {background:#C03;color:#333;width:100%;padding:6px 6px;margin:0;text-align:left;}
+        .slidenav:visited {background:#F00;color:#333;width:100%;padding:6px 6px;margin:0;text-align:left;}
+               
+
+@media (min-width: 4000px)  {
+  footer {padding-left:20px;}
+
+  }
+
+
+
+</style>
+
+
+	<!--[if lt IE 8]>
+	<style>
+		ol {margin-left:40px;}
+		ol li {
+			margin-left:0;
+			list-style:decimal;
+		}
+		ol ul li {list-style:disc;}
+	</style>
+	<![endif]-->
+  	
+  <script>
+function showlist(item) {
+ var list = document.getElementById(item);
+ $(list).toggle(500);
+ $('#item2').toggle(500);
+
+}
+
+function showsubList(item, elem) {
+ var list = document.getElementById(item);
+ $("ul#item1list > li:not(:first)").toggle(500);
+ $(list).toggle(500);
+}
+</script>
+
+	</head>
+	<body>
+		 
+
+
+
+
+<div class="sticky">
+<nav class="top-bar" data-topbar role="navigation" style="background:#fff;">
+  <ul class="title-area">
+    <li class="name">
+      <img src="atramlogo.png" class="left" style="width:44px;margin:7px 0 0 15px">
+      <h1 class="left" style="letter-spacing:7px;font-size:0.7em;text-transform:uppercase"><a href="#" style="color:#666;">Atramhasis</a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="" style="width:100%">
+      <li class="divider"></li>
+      <li class="has-dropdown" style="width:30%">
+        <a href="#">Kies een schema</a>
+        <ul class="dropdown" style="">
+          <li><a href="#">Verschillende soorten bomen</a></li>
+          <li class="active"><a href="#">Stijlen en Culturen</a></li>
+          <li><a href="#">Geografie</a></li>
+          <li><a href="#">Materialen</a></li>
+        </ul>
+      </li>
+      <li class="divider"></li>
+      <li class="has-dropdown" style="width:30%">
+        <a href="#">Kies een type</a>
+        <ul class="dropdown">
+          <li><a href="#">Concepten</a></li>
+          <li class="active"><a href="#">Collecties</a></li>
+        </ul>
+      </li>
+      <li class="divider"></li>
+      <li class="has-form" style="width:20%">
+  <div class="row collapse">
+
+<div class="left"><input type="text" class="" placeholder="Zoek een label"></div>
+<div class="left"><a href="#" class=""><span class="ico ico-mglass"></span></a></div>
+
+  </div>
+</li>
+    </ul>
+
+    <!-- Left Nav Section -->
+    <!--ul class="left">
+      <li><a href="#">Left Nav Button</a></li>
+    </ul -->
+  </section>
+</nav>
+</div>
+
+
+<div style="">
+
+<div class="large-2 columns">
+
+                <ul class="subNav">
+                <li><a href="">culturen</a></li>
+                <li><a href="resultv2s2">stijlen</a></li>
+                </ul>
+
+                <ul class="subNav2">           
+                <li>brutalisme</li>
+                </ul>
+                  
+</diV>
+
+
+<div class="large-10 columns" style="">
+
+
+<div class="large-9 columns">
+<h1 style="margin:10px 0 0 0">Brutalisme</h1>
+<h4 style="margin: 0 0 10px 0;font-size:0.8em;color:#999">[ ID : 335 ]</h4>
+
+
+<dl class="infolist clearfix">
+  <dt>type</dt>
+  <dd>concept</dd>
+  <dt>uri</dt>
+  <dd><a href="">urn:x-skosprovider:geography:335</a></dd>
+  <dt>schema</dt>
+  <dd><a href="">Geografie</a></dd>
+  <dt>labels</dt>
+  <dd><strong>Mechelen</strong> <em>(Dutch)</em> , <strong>Malines</strong> <em>(French)</em></dd>
+  <dt>alt labels</dt>
+  <dd><strong>Machlina</strong> <em>(Undetermined)</em> , <strong>Malines</strong> <em>(English)</em> , <strong>Mecheln</strong> <em>(German)</em> ,<strong>Mechlin</strong> <em>(English)</em> , <strong>Mechlinae</strong> <em>(Latin)</em> , <strong>Mechlinia</strong> <em>(Undetermined)</em>
+</dd>
+</dl>
+          
+
+<ul class="scopeNote">
+<li>
+<strong>scopeNote</strong> <em>(English)</em>: Settled in ancient times, the commune of Mechelen lies along the Dijle River, a few miles north-northeast of Brussels, in the Belgian province of Antwerp. According to Christian legend, St. Rumoldus came here in 756. It was ruled by the prince-bishops of Liège from 915 to 1333, by Flanders from 1333 to 1368, and by Burgundy from 1369. Charles the Bold of Burgundy made it the seat of the Grand Council in 1473, the supreme court of the Low Countries. The regent Margaret of Austria made it the capital of The Netherlands in the early 16th century, and it became a cultural center and archbishopric. It suffered great damage in wars from the 16th to the 18th centuries, being held variously by the French, Spanish, and English, and again in World War II. Its architectural and artistic treasures include the Cathedral of St. Rumoldus of the13th-15th century, containing a 49-bell carillon and Anthony Van Dyck's Crucifixion, St. John's Church with Peter Paul Rubens's Adoration of the Magi; Notre Dame with Rubens's Miraculous Draught of Fishes, the Renaissance palace of Margaret of Austria which has served as law courts since 1796, the 14th-century Cloth Hall, and the town hall, which is composed of three distinct structures: the Palace of the Grand Council built in 1526, the cadre of halls built 1311-26, and a Renaissance building of17th century. It was at one time a notable center of lace making. In the 20th and 21st centuries it is noted for its vegetable market, and furniture, tapestry, and beer industries. Its population by a 2003 estimate is 76,200.
+</li>
+</ul>
+
+
+<ul class="scopeNote">
+<li>
+<strong>scopeNote</strong> <em>(English)</em>: Settled in ancient times, the commune of Mechelen lies along the Dijle River, a few miles north-northeast of Brussels, in the Belgian province of Antwerp. According to Christian legend, St. Rumoldus came here in 756. It was ruled by the prince-bishops of Liège from 915 to 1333, by Flanders from 1333 to 1368, and by Burgundy from 1369. Charles the Bold of Burgundy made it the seat of the Grand Council in 1473, the supreme court of the Low Countries. The regent Margaret of Austria made it the capital of The Netherlands in the early 16th century, and it became a cultural center and archbishopric. It suffered great damage in wars from the 16th to the 18th centuries, being held variously by the French, Spanish, and English, and again in World War II. Its architectural and artistic treasures include the Cathedral of St. Rumoldus of the13th-15th century, containing a 49-bell carillon and Anthony Van Dyck's Crucifixion, St. John's Church with Peter Paul Rubens's Adoration of the Magi; Notre Dame with Rubens's Miraculous Draught of Fishes, the Renaissance palace of Margaret of Austria which has served as law courts since 1796, the 14th-century Cloth Hall, and the town hall, which is composed of three distinct structures: the Palace of the Grand Council built in 1526, the cadre of halls built 1311-26, and a Renaissance building of17th century. It was at one time a notable center of lace making. In the 20th and 21st centuries it is noted for its vegetable market, and furniture, tapestry, and beer industries. Its population by a 2003 estimate is 76,200.
+</li>
+</ul>
+
+
+
+
+<dl class="infolist clearfix">
+  <dt>relaties</dt>
+  <dd>concept</dd>
+  <dt>algemener</dt>
+  <dd>Flanders</dd>
+  <dt>exact match</dt>
+  <dd><a href="">http://vocab.getty.edu/tgn/7008736</a></dd>
+</dl>
+
+
+<a href="detailv3">detailv3</a>
+
+
+
+<footer class="" style="clear:both;margin:26px 0px;padding:26px 0px;border-top:1px solid #fff">
+<div class="right language" style="margin:0">
+<span class="language-active">NL </span>&nbsp;
+<a href="">FR</a> &nbsp;
+<a href="">EN</a>
+</div>
+<small> &copy; Copyright 2014-2015 <a href="https://www.onroerenderfgoed.be/">Flanders Heritage Agency</a></small>
+</footer>
+
+
+</diV>
+
+
+<div class="large-3 columns">
+
+
+<div class="box" style="margin-top:50px"> 
+<h5>Downloads</h5>
+
+<ul class="no_bullet">
+  <li class="cube"><a href="">Download CSV</a></li>
+</ul> 
+</diV>
+
+
+
+<div class="box">
+<h5>POPULAIR IN DEZE CAtEGORIE</h5>
+
+<ul class="no_bullet">
+  <li class="cube"><a href="">Belgium</a></li>
+  <li class="cube"><a href="">Flanders</a></li>
+  <li class="cube"><a href="">Heis op den berg</a></li>
+  <li class="cube"><a href="">World</a></li>
+</ul> 
+</div>
+
+
+
+<div class="box">
+<h5>RECENT DOOR U BEKEKEN</h5>
+
+<ul class="no_bullet">
+  <li class="cube"><a href="">Belgium kdmdk  qdkq mdk dmqk d mk dqs dmq dq sqs d</a></li>
+  <li class="cube"><a href="">Flanders</a></li>
+  <li class="cube"><a href="">Heis op den berg</a></li>
+  <li class="cube"><a href="">World</a></li>
+</ul> 
+</div>
+
+
+
+<div class="box">
+<h5>Volg Atramhasis </h5>
+
+<ul class="no_bullet">
+  <li class="cube"><a href="">Ons discussieforum</a></li>
+  <li class="cube"><a href="">Onze online handleiding</a></li>
+  <li class="cube"><a href="">Onze issue tracker</a></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+</diV>
+</diV>
+</diV>
+
+
+
+
+
+  		<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/assets/js/foundation.min.js"></script>
+<script>
+$(document).foundation();
+</script>
+
+	</body>
+</html>

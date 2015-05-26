@@ -1,0 +1,384 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Foundation 5</title>
+  		<link href="/assets/css/foundation.min.css" rel="stylesheet" type="text/css" media="all"/>
+  		<script src="/bower_components/foundation/js/vendor/modernizr.js"></script>
+
+  		<style>
+
+  		 @font-face {
+    font-family: 'amblebold';
+    src: url('fonts/Amble-Bold-webfont.eot');
+    src: url('fonts/Amble-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Bold-webfont.woff') format('woff'),
+         url('fonts/Amble-Bold-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Bold-webfont.svg#amblebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+		@font-face {
+		    font-family: 'ambleregular';
+		    src: url('fonts/Amble-Regular-webfont.eot');
+		    src: url('fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('fonts/Amble-Regular-webfont.woff') format('woff'),
+		         url('fonts/Amble-Regular-webfont.ttf') format('truetype'),
+		         url('fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+
+}
+
+
+	body {
+	background:#f0f1f3;
+		max-width:100%;
+		margin:0 auto;
+		font-family: 'ambleregular', sans-serif;
+	}
+
+	a {color:#2b709d;}
+	a:hover {color:#f77f00 !important;}
+/*06C *//*   1c8bd3*/
+
+
+ul.resultlist { margin: 0 20px;padding: 0;list-style-type: none;}
+.resultlist li { text-transform: capitalize; border-top:1px dotted #fff;padding: 0;}
+.resultlist li span { font-size:0.7em;color:#999;margin-left:10px;}
+.resultlist a { display: block;width: 100%;text-decoration: none;height:40px;padding: 10px 0 0 10px;}
+
+.resultlist a:hover { background-color: #f9f9f9;padding: 0px; transition: background .45s ease-in-out; -moz-transition:background .45s ease-in-out; -webkit-transition: background .45s ease-in-out;padding: 10px 0 0 10px;height:40px;}
+
+
+// list
+dl.infolist {font-size:0.7em; font-family: 'ambleregular', sans-serif;}
+.infolist dt {margin-left:0px;font-weight:normal;font-size:0.7em; font-family: 'ambleregular', sans-serif;}
+.infolist dd {margin:-22px 0 0 70px;font-size:0.8em; font-family: 'amblebold', sans-serif;}
+
+
+
+// submenu 
+.nostyleList {
+   list-style: none;
+   margin-left: 0;
+   padding-left: 0;
+  
+ }
+
+
+
+h1 {font-size:2em;color:#f77f00;}
+h2 {font-size:1em;text-transform:uppercase;letter-spacing:4px;color:#999;}
+h3 {font-size:0.7em;text-transform:uppercase;letter-spacing:4px;color:#999;}
+h5 {font-size:0.6em;text-transform:uppercase;}
+
+
+/* title result*/
+
+.title-result {padding:0 20px 10px 20px;font-size:0.7em;color:#666;font-family: 'amblebold', sans-serif;}
+.title-result span {color:#f90;font-size:1em;}
+
+.divider {border:1px solid #f0f1f3;}
+
+
+.scopeNote {font-size:0.9em;}
+ul.scopeNote  {margin:0;padding:0;}
+.scopeNote li {list-style-type:none;list-style-position:outside !important;margin:0;padding:0 0 20px 0;}
+
+
+
+ul.subNav  		{list-style-type:none;list-style-position:outside !important;margin:70px 0 0 0;padding:0;}
+ul.subNav li 	{/*background:#fff;*/margin:10px 0 0 0;padding:5px 10px;font-size:0.8em;text-transform: uppercase;}
+
+ul.subNav2  	{list-style-type:none;list-style-position:outside !important;margin:0;padding:0;}
+ul.subNav2 li 	{margin:0;padding:5px 10px;font-size:0.7em;text-transform: capitalize;}
+
+
+
+/* mag glass large */
+.ico-mglass-large {
+  position: relative;
+  display: inline-block;
+  background: transparent;
+  border-radius: 60px;
+  height: 30px;
+  width: 30px;
+  border: 3px solid #f77f00;margin:10px 0 0 10px;
+}
+.ico-mglass-large:after {
+  content: "";
+  height: 4px;
+  width: 16px;
+  background: #f77f00;
+  position: absolute;
+  top: 26px;
+  left: 18px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+
+
+/* mag glass small */
+.ico-mglass {
+  position: relative;
+  display: inline-block;
+  background: transparent;
+  border-radius: 60px;
+  height: 18px;
+  width: 18px;
+  border: 2px solid #f77f00;margin:10px 0 0 10px;
+}
+.ico-mglass:after {
+  content: "";
+  height: 2px;
+  width: 12px;
+  background: #f77f00;
+  position: absolute;
+  top: 16px;
+  left: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+
+
+.box {background:#fff;margin-bottom:20px;padding:20px 10px 25px 10px;border:1px solid #efefef;}
+.box h5 {font-size:0.6em;text-transform:uppercase;letter-spacing: 3px;color:#333;margin-bottom:20px}
+.box ul {font-size:0.7em;}
+
+
+.subfooter, .subfooterright {padding:0 20px;border-left:2px solid #fff;margin-top:20px;font-size:0.8em}
+.subfooterright {border-right:2px solid #fff;}
+
+/*home*/
+.language {font-size:0.6em;margin:50px 0 0 0}
+.language-active {color:#f77f00;}
+
+.bgcontainer {background:#fff;padding:20px 0;border:1px solid #e5e5e5;}
+
+.home-img_position {position:relative}
+.home-img_position form {position:absolute;z-index:100;width:100%;margin-top:50px}
+
+.logo {margin:10px 20px 0 -32px;}
+
+h1.logotext  {color:#a5a5a5;letter-spacing:16px;font-size:0.7em;margin:30px 0;text-transform:uppercase}
+
+footer {clear:both;margin-top:30px;padding:20px 0;border-top:1px solid #efefef}
+
+
+.ptext {padding:30px 30px 0 0}
+.ptext p, .ptext li {font-size:0.8em}
+
+
+
+ul.no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+li.cube {
+background: url(listitem.png) no-repeat 0 5px;padding-left:15px;
+}
+
+
+        #Slider {
+            cursor: hand
+        }
+        #Actual {
+            background: #fff;
+            color: White;
+            padding: 0px;
+        }
+        .slideup, .slidedown {
+            max-height: 0;            
+            overflow-y: hidden;
+            -webkit-transition: max-height 0.8s ease-in-out;
+            -moz-transition: max-height 0.8s ease-in-out;
+            -o-transition: max-height 0.8s ease-in-out;
+            transition: max-height 0.8s ease-in-out;
+
+        }
+        .slidedown {            
+            max-height: 400px ;                    
+        }    
+
+        .slidenav {background:#fff;color:#000;width:100%;padding:6px 6px;margin:0;text-align:left;}
+        .slidenav:hover {background:#fff;color:#333;width:100%;padding:6px 6px;margin:0;text-align:left;}
+        .slidenav:active {background:#C03;color:#333;width:100%;padding:6px 6px;margin:0;text-align:left;}
+        .slidenav:visited {background:#F00;color:#333;width:100%;padding:6px 6px;margin:0;text-align:left;}
+               
+
+@media (min-width: 4000px)  {
+  footer {padding-left:20px;}
+
+  }
+
+
+
+</style>
+
+
+	<!--[if lt IE 8]>
+	<style>
+		ol {margin-left:40px;}
+		ol li {
+			margin-left:0;
+			list-style:decimal;
+		}
+		ol ul li {list-style:disc;}
+	</style>
+	<![endif]-->
+  	
+  <script>
+function showlist(item) {
+ var list = document.getElementById(item);
+ $(list).toggle(500);
+ $('#item2').toggle(500);
+
+}
+
+function showsubList(item, elem) {
+ var list = document.getElementById(item);
+ $("ul#item1list > li:not(:first)").toggle(500);
+ $(list).toggle(500);
+}
+</script>
+
+	</head>
+	<body>
+		 
+
+<div class="row">
+
+<div class="left">
+<img src="atramlogo.png" width="70" class="left logo">
+<h1 class="left logotext">Atramhasis</h1>
+</div>
+
+<div class="clearfix right language">
+<span class="language-active">NL </span>&nbsp;
+<a href="">FR</a> &nbsp;
+<a href="">EN</a>
+</div>
+
+</div>
+
+<div class="bgcontainer">
+
+<div class="row">
+<div class="large-6 columns ptext">
+
+<p>
+<strong>Atramhasis is een open-source, online <a href="">SKOS</a> editor. Met behulp van deze webtoepassing kan je SKOS vocabularia, thesauri, authority files, ... doorbladeren met behulp van de publieke interface.
+</strong></p>
+
+<p>Atramhasis heeft ook een beheersinterface die je kunt gebruiken om concepten toe te voegen, 
+te bewerken of te verwijderen.</p>
+
+<p><strong>Meer informatie over dit project</strong></p>
+
+<ul class="no_bullet">
+  <li class="cube"><a href="">Ons discussieforum</a></li>
+  <li class="cube"><a href="">Onze online handleiding</a></li>
+  <li class="cube"><a href="">Onze issue tracker</a></li>
+</ul>
+ 
+
+
+</div>
+
+
+
+<div class="large-6 columns" style="padding:0 0 0 30px">
+
+<div class="home-img_position">
+<form>
+                      <select>
+                        <option value="husker">Kies een schema</option>
+                        <option value="starbuck">2</option>
+                        <option value="hotdog">3</option>
+                        <option value="apollo">4</option>
+                      </select>
+
+                      <select>
+                        <option value="husker">Kies een Stijl</option>
+                        <option value="starbuck">Starbuck</option>
+                        <option value="hotdog">Hot Dog</option>
+                        <option value="apollo">Apollo</option>
+                      </select>
+
+                    
+                      <input type="text" placeholder="Zoek naar een label" />
+                  
+<div class="text-center">
+
+<a href="result"><span class="ico ico-mglass-large"></span></a>
+</div>
+
+ </form> 
+
+<div class="text-center">
+  <img src="brainheadimg-light.png" width="230">
+</div>
+
+
+</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div class="row">
+
+
+<div class="large-3 columns subfooter">
+<h3>Geografie</h3>
+<a href="">link</a>, <a href="">link</a>, <a href="">link</a>, 
+</div>
+
+<div class="large-3 columns subfooter">
+<h3>Stijlen & Culturen</h3>
+<a href="">link</a>, <a href="">link</a>, <a href="">link</a>,
+</div>
+
+<div class="large-3 columns subfooter">
+<h3>soorten bomen</h3>
+<a href="">link</a>, <a href="">link</a>, <a href="">link</a>, 
+</div>
+
+<div class="large-3 columns subfooterright">
+<h3>Materialen</h3>
+<a href="">link</a>, <a href="">link</a>, <a href="">link</a>, 
+</div>
+
+</div>
+
+<footer>
+
+<div class="row">
+<small> &copy; Copyright 2014-2015 <a href="https://www.onroerenderfgoed.be/">Flanders Heritage Agency</a></small>
+</div>
+</footer>
+
+
+
+  		<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/assets/js/foundation.min.js"></script>
+<script>
+$(document).foundation();
+</script>
+
+	</body>
+</html>

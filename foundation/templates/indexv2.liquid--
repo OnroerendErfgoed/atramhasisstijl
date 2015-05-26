@@ -1,0 +1,248 @@
+{% block content %} 
+
+
+
+
+    
+<div class="contain-to-grid sticky" style="background:#fff;height:80px;border-bottom:1px solid #efefef">
+    
+  <nav class="top-bar" data-topbar style="background:#fff;">
+    <ul class="title-area">
+      <li class="name">
+        
+      </li>
+    </ul>
+
+    <section class="top-bar-section">
+
+   <!-- Right Nav Section -->
+      <ul class="right" style="margin-top:18px">
+           <li class="has-dropdown" style="padding:0 20px 0 10px;background-color:#283539;">
+        <a href="#" style="background-color:#283539">Kies een schema</a>
+        <ul class="dropdown">
+          <li><a href="#">First link in dropdown</a></li>
+          <li class="active"><a href="#">Active link in dropdown</a></li>
+        </ul>
+      </li>
+      <li class="has-dropdown" style="padding:0 20px 0 10px;background-color:#283539;">
+        <a href="#" style="background-color:#283539">Kies een type</a>
+        <ul class="dropdown">
+          <li><a href="#">First link in dropdown</a></li>
+          <li class="active"><a href="#">Active link in dropdown</a></li>
+        </ul>
+      </li>
+        <li><input type="text" placeholder="Find Stuff" style="background-color:#283539;border:0;color:white"></li>
+        <li><a href="#" class="button expand">Search</a></li>
+      </ul>
+
+
+   
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li style="background:none"><h5 style="color:#efefef;letter-spacing:4px;font-size:1em;padding-top:26px;text-transform:uppercase">Atrahamsis</h5></li>
+      </ul>
+    </section>
+  </nav>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+ <div class="large-3 columns" style="background:#fff;min-height:100%">
+
+
+             
+
+
+                
+<h4>Bladeren</h4>
+<ul>
+  <li><a href="">Geografie</a></li>
+  <li><a href="">Stijlen en Culturen</a></li>
+  <li><a href="">Materialen</a></li>
+  <li><a href="">Verschillende soorten bomen</a></li>
+</ul>
+
+<h4>Informatie</h4>
+<ul>
+  <li><a href="">Ons discussieforum</a></li>
+  <li><a href="">Onze online handleiding</a></li>
+  <li><a href="">Onze issue tracker</a></li>
+</ul>
+
+
+<div class="text-center">
+    <a href="#">fr</a>
+    <a href="#">en</a>
+</div>
+
+
+
+</diV>
+
+
+<div class="large-9 columns">
+
+<div class="large-9 columns">
+
+<h1>Welkom bij Atramhasis</h1>
+
+<p>Atramhasis is een open-source, online <a href="">SKOS</a> editor. Met behulp van deze webtoepassing kan je SKOS vocabularia, thesauri, authority files, ... doorbladeren met behulp van de publieke interface. </p>
+
+<p>Atramhasis heeft ook een beheersinterface die je kunt gebruiken om concepten toe te voegen, 
+te bewerken of te verwijderen.</p>
+
+<p>Voor meer informatie over dit project kan je terecht bij</p>
+<ul>
+  <li><a href="">Ons discussieforum</a></li>
+  <li><a href="">Onze online handleiding</a></li>
+  <li><a href="">Onze issue tracker</a></li>
+</ul>
+ 
+<a href="index">Index v1</a>
+
+<a href="resultv2">resultv2</a>
+<a href="detailv2">detailv2</a>
+
+<div style="height:700px"></div>
+
+</diV>
+
+
+
+
+
+
+
+</diV>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="zurb-footer-top bg-fblue">
+  <div class="row property">
+    <div class="medium-4 columns">
+      <div class="property-info">
+        <h3>Foundation</h3>
+        <p>Foundation is made by <a href="http://zurb.com">ZURB, a product design</a> company in Campbell, California. We've put more than 15 years of experience building web products, services and websites into this framework.
+        </p>
+      </div>
+    </div>
+
+    <div class="medium-8 columns">
+      <div class="row collapse">
+        <div class="medium-4 columns">
+          <div class="learn-links">
+            <h4 class="hide-for-small">Want more?</h4>
+            <ul>
+              <li><a href="http://foundation.zurb.com/business/services.html">Foundation Business</a></li>
+              <li><a href="http://zurb.com/responsive">Responsive</a></li>
+              <li><a href="http://zurb.com/notable">Notable</a></li>
+              <li><a href="http://foundation.zurb.com/learn/training.html">Foundation Training</a></li>
+            </ul>
+          </div>
+        </div>
+          <div class="medium-4 columns">
+            <div class="support-links">
+              <h4 class="hide-for-small">Talk to us</h4>
+              <p>Tweet us at <br> <a href="https://twitter.com/zurbfoundation">@zurbfoundation</a></p>
+              <p>Email us at <br> <a href="/cdn-cgi/l/email-protection#c8aea7bda6aca9bca1a7a688b2bdbaaae6aba7a5"><span class="__cf_email__" data-cfemail="02646d776c6663766b6d6c42787770602c616d6f">[email&#160;protected]</span><script cf-hash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></a><br> or check our <a href="../support/support.html">support page</a></p>
+            </div>
+          </div>
+        <div class="medium-4 columns">
+          <div class="connect-links">
+            <h4 class="hide-for-small">Stay in touch</h4>
+            <p>Keep up with the latest on Foundation. Find us on <a href="https://github.com/zurb/foundation">Github</a>.</p>
+            <a href="http://zurb.com/news" class="small button">Stay Connected</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row global">
+    <div class="medium-3 small-6 columns">
+      <a href="http://zurb.com/studios" class="footer-link-block services">
+        <span class="title">Studios</span>
+        <span>Helping more than 200 startups succeed since 1998.</span>
+      </a>
+    </div>
+    <div class="medium-3 small-6 columns">
+      <a href="http://foundation.zurb.com/" class="footer-link-block foundation">
+        <span class="title">Foundation</span>
+        <span>The most advanced front-end framework in the world.</span>
+      </a>
+    </div>
+    <div class="medium-3 small-6 columns">
+      <a href="http://zurb.com/notable" class="footer-link-block apps">
+        <span class="title">Notable</span>
+        <span>Prototype, iterate and collect feedback on your products.</span>
+      </a>
+    </div>
+    <div class="medium-3 small-6 columns">
+      <a href="http://zurb.com/university" class="footer-link-block expo">
+        <span class="title">University</span>
+        <span>Ideas, thoughts and design resources shared with you.</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="zurb-footer-bottom">
+  <div class="row">
+    <div class="medium-4 medium-4 push-8 columns">
+      <ul class="home-social">
+          <li><a href="http://www.twitter.com/ZURB" class="twitter"></a></li>
+          <li><a href="http://www.facebook.com/ZURB" class="facebook"></a></li>
+          <li><a href="http://zurb.com/contact" class="mail"></a></li>
+        </ul>
+     </div>
+     <div class="medium-8 medium-8 pull-4 columns">
+        <a href="http://www.zurb.com" class="zurb-logo regular"></a>
+        <ul class="zurb-links">
+          <li><a href="http://zurb.com/about">About</a></li>
+          <li><a href="http://zurb.com/blog">Blog</a></li>
+          <li><a href="http://zurb.com/news">News<span class="show-for-medium-up"> &amp; Events</span></a></li>
+          <li><a href="http://zurb.com/contact">Contact</a></li>
+          <li><a href="http://zurb.com/sitemap">Sitemap</a></li>
+       </ul>
+       <p class="copyright">&copy; 2015 </p>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+
+
+
+
+{% endblock %}

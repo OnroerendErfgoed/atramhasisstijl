@@ -1,0 +1,287 @@
+{% block content %} 
+
+
+
+
+
+
+
+
+
+<!-- header -->
+<div class="sticky">
+<nav class="top-bar" data-topbar role="navigation" style="background:#fff;border-bottom:1px solid #efefef;">
+
+<section class="top-bar-section">
+<div class="large-3 columns">
+<!-- logo -->
+ <ul class="title-area">
+    <li class="name">
+      <a href="#">
+      <img src="atramlogo.png" class="left" style="width:44px;margin:7px 0 0 15px">
+      </a>
+      <h1 class="left" style="letter-spacing:7px;font-size:0.7em;text-transform:uppercase">
+        <a href="#" style="color:#666;">Atramhasis</a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+<!-- end logo -->
+</div> 
+<div class="large-3 columns">
+
+ <ul class="" style="">
+      <li class="divider"></li>
+      <li class="has-dropdown">
+        <a href="#">Kies een schema</a>
+        <ul class="dropdown">
+          <li><a href="#">Verschillende soorten bomen</a></li>
+          <li class="active"><a href="#">Stijlen en Culturen</a></li>
+          <li><a href="#">Geografie</a></li>
+          <li><a href="#">Materialen</a></li>
+        </ul>
+      </li>
+  </ul>
+
+</div> 
+<div class="large-3 columns">
+
+<ul>
+  <li class="divider"></li>
+      <li class="has-dropdown">
+        <a href="#">Kies een type</a>
+        <ul class="dropdown">
+          <li><a href="#">Concepten</a></li>
+          <li class="active"><a href="#">Collecties</a></li>
+        </ul>
+      </li>
+</ul>
+
+</div> 
+<div class="large-3 columns">
+
+<ul>
+  <li class="divider"></li>
+  <li class="has-form">
+  <div class="row collapse">
+    <div class="left"><input type="text" class="" placeholder="Zoek een label"></div>
+    <div class="left"><a href="#" class=""><span class="ico ico-mglass"></span></a></div>
+  </div>
+  </li>
+</ul>
+
+</div>  
+
+</section>
+</nav>
+</div>
+<!-- end header -->
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="large-2 columns" style="background:#fff">
+
+        
+  
+           
+                  <ul class="subNav">
+                      <li><a href="">culturen</a></li>
+                      <li><a href="resultv2s2">stijlen</a></li>
+                  </ul>
+
+                 
+<hr>
+
+<p><strong>Meer informatie over dit project</strong></p>
+
+<ul class="no_bullet">
+  <li class="cube"><a href="">Ons discussieforum</a></li>
+  <li class="cube"><a href="">Onze online handleiding</a></li>
+  <li class="cube"><a href="">Onze issue tracker</a></li>
+</ul>
+ 
+
+<!--div class="row">
+ <div class="large-4">
+   <div>
+     <ul id="main" class="nostyleList">
+       <li>
+         <a href="#" onclick="showlist('item1list')"
+id="item1">Stijlen</a>
+         <ul id="item1list" style="display:none;" class="nostyleList">
+           <li><a href="#" onclick="showsubList('elem1list', 'elem1')"
+id="elem1">Artdeco</a>
+             <ul id="elem1list" style="display:none"
+class="nostyleList">
+               <li>subelem1</li>
+               <li>subelem2</li>
+             </ul>
+           </li>
+           <li>elem2</li>
+           <li>elem3</li>
+           <li>elem4</li>
+           <li>elem5</li>
+         </ul>
+       </li>
+       <li>
+         <a id="item2">item2</a>
+       </li>
+     </ul>
+   </div>
+ </div>
+</div -->
+              
+
+</diV>
+
+
+<div class="large-10 columns">
+
+
+<div class="large-9 columns" style="background:#fff;padding:20px 0 0 0;border-right:1px solid #efefef;border-left:1px solid #efefef">
+
+<h1 style="padding:20px;font-size:1em;color:#666"><strong>72</strong> resultaten gevonden voor <span style="color:#f90;font-size:1em;">'Stijlen'</span> </h1>
+
+
+      <ul class="olstyle" style="padding:10px">
+         <li><a href="/conceptschemes/STYLES/c/64">acheuleaan</a> [ ID : 64 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/65">ahrensburgiaan</a> [ ID : 65 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/22">art deco</a> [ ID : 22 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/30">art nouveau</a> [ ID : 30 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/66">aurignaciaan</a> [ ID : 66 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/7">barok</a> [ ID : 7 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/32">beaux-artsstijl</a> [ ID : 32 ]</li>
+         <li><a href="detailv2">brutalisme</a> [ ID : 28 ]***</em></li>
+         <li><a href="/conceptschemes/STYLES/c/123">Chippendale</a> [ ID : 123 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/8">classicerende barok</a> [ ID : 8 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/10">classicisme</a> [ ID : 10 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/31">cottagestijl</a> [ ID : 31 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/67">creswelliaan</a> [ ID : 67 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/124">culturen</a> [ ID : 124 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/63">culturen uit de metaaltijden</a> [ ID : 63 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/62">culturen uit de steentijd</a> [ ID : 62 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/29">eclecticisme</a> [ ID : 29 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/11">empire</a> [ ID : 11 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/68">enkelgrafcultuur</a> [ ID : 68 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/24">expo-stijl</a> [ ID : 24 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/69">federmesser</a> [ ID : 69 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/4">gotiek</a> [ ID : 4 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/82">gravettiaan</a> [ ID : 82 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/87">groupe de Blicquy</a> [ ID : 87 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/114">Halstatt</a> [ ID : 114 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/88">hamburgiaan</a> [ ID : 88 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/89">hazendonkgroep</a> [ ID : 89 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/27">high tech</a> [ ID : 27 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/115">Hilversum-cultuur</a> [ ID : 115 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/91">klokbekercultuur</a> [ ID : 91 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/116">La Tène</a> [ ID : 116 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/93">lineaire bandkeramiek</a> [ ID : 93 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/95">magdaleniaan</a> [ ID : 95 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/97">michelsbergcultuur</a> [ ID : 97 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/98">micoquiaan</a> [ ID : 98 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/23">modernisme</a> [ ID : 23 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/100">mousteriaan</a> [ ID : 100 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/117">Nederrijnse grafheuvelcultuur</a> [ ID : 117 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/34">neo-Egyptisch</a> [ ID : 34 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/33">neo-empire</a> [ ID : 33 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/14">neo-Vlaamserenaissance-stijl</a> [ ID : 14 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/16">neobarok</a> [ ID : 16 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/18">neobyzantijns</a> [ ID : 18 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/12">neoclassicisme</a> [ ID : 12 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/13">neogotiek</a> [ ID : 13 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/17">neomoors</a> [ ID : 17 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/122">neorenaissance</a> [ ID : 122 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/19">neorococo</a> [ ID : 19 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/15">neoromaans</a> [ ID : 15 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/35">neostijl</a> [ ID : 35 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/21">neotraditioneel</a> [ ID : 21 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/25">organische architectuur</a> [ ID : 25 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/119">Plainseaucultuur</a> [ ID : 119 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/26">postmodernisme</a> [ ID : 26 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/20">regionalisme</a> [ ID : 20 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/5">renaissance</a> [ ID : 5 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/120">Rhin-Suisse-France Oriental</a> [ ID : 120 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/102">Rijnbekkengroep</a> [ ID : 102 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/9">rococo</a> [ ID : 9 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/3">romaans</a> [ ID : 3 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/104">rössencultuur</a> [ ID : 104 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/36">second empire</a> [ ID : 36 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/106">Seine-Oise-Marne</a> [ ID : 106 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/108">steingroep</a> [ ID : 108 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/60">stijlen</a> [ ID : 60 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/109">swifterbantcultuur</a> [ ID : 109 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/110">tardenoisiaan</a> [ ID : 110 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/1">traditioneel</a> [ ID : 1 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/112">trechterbekercultuur</a> [ ID : 112 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/121">urnenveldencultuur</a> [ ID : 121 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/2">vakwerkbouw</a> [ ID : 2 ]</li>
+         <li><a href="/conceptschemes/STYLES/c/113">vlaardingencultuur</a> [ ID : 113 ]</li>
+      </ul>
+             
+
+
+
+
+</diV>
+
+
+<div class="large-3 columns" style="margin-top:60px">
+<div class="box"> 
+<h5>Downloads</h5>
+<ul>
+  <li><a href="">Download CSV</a></li>
+ </ul> 
+</diV>
+
+<div class="box">
+<h5>POPULAIR IN DEZE CAtEGORIE</h5>
+<ul>
+  <li><a href="">Belgium</a></li>
+  <li><a href="">Flanders</a></li>
+  <li><a href="">Heis op den berg</a></li>
+  <li><a href="">World</a></li>
+ </ul> 
+</div>
+
+<div class="box">
+<h5>RECENT DOOR U BEKEKEN</h5>
+
+<ul>
+  <li><a href="">Belgium</a></li>
+  <li><a href="">Flanders</a></li>
+  <li><a href="">Heis op den berg</a></li>
+  <li><a href="">World</a></li>
+ </ul> 
+</div>
+
+
+
+
+
+
+
+</diV>
+</diV>
+
+
+<footer class="" style="clear:both;margin-top:30px;padding:20px;border-top:1px solid #efefef">
+<div class="right language" style="margin:0">
+<span class="language-active">NL </span>&nbsp;
+<a href="">FR</a> &nbsp;
+<a href="">EN</a>
+</div>
+<small> &copy; Copyright 2014-2015 <a href="https://www.onroerenderfgoed.be/">Flanders Heritage Agency</a></small>
+</footer>
+
+
+
+{% endblock %}
