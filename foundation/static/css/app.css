@@ -4238,7 +4238,7 @@ meta.foundation-mq-topbar {
           color: #FFFFFF; }
     .top-bar-section ul li:hover:not(.has-form) > a {
       background-color: #efefef;
-      background: white;
+      background: #ececec;
       color: #F90; }
     .top-bar-section ul li.active > a {
       background: #008CBA;
@@ -4358,7 +4358,7 @@ meta.foundation-mq-topbar {
           display: none; }
     .top-bar-section li.hover > a:not(.button) {
       background-color: #efefef;
-      background: white;
+      background: #ececec;
       color: #F90; }
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 30px;
@@ -4366,7 +4366,7 @@ meta.foundation-mq-topbar {
       background: white; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         background-color: #efefef;
-        background: white; }
+        background: #ececec; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 30px;
       line-height: 60px;
@@ -4436,7 +4436,7 @@ meta.foundation-mq-topbar {
       .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
         color: #F90;
         background-color: #efefef;
-        background: white; }
+        background: #ececec; }
       .top-bar-section .dropdown li label {
         white-space: nowrap;
         background: #333333; }
@@ -4466,7 +4466,7 @@ meta.foundation-mq-topbar {
         left: 100%; }
   .no-js .top-bar-section ul li:hover > a {
     background-color: #efefef;
-    background: white;
+    background: #ececec;
     color: #F90; }
   .no-js .top-bar-section ul li:active > a {
     background: #008CBA;
@@ -5563,13 +5563,12 @@ footer {
 
 footer .footerpage {
   clear: both;
-  margin: 26px 20px;
-  padding: 26px 10px;
-  border-top: 1px solid #fff; }
+  margin: 0px 26px;
+  padding: 26px 10px; }
 
 .subfooter, .subfooterright {
   padding: 0 20px;
-  border-left: 1px solid #ccc;
+  border-left: 2px solid #f0f1f3;
   margin-top: 20px;
   font-size: 0.8em; }
 
@@ -5580,4 +5579,4 @@ footer .footerpage {
   color: #999; }
 
 .subfooterright {
-  border-right: 1px solid #ccc; }
+  border-right: 2px solid #f0f1f3; }
