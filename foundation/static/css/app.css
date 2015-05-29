@@ -5555,3 +5555,29 @@ th.hide-for-touch {
     display: table-cell !important; }
   th.show-for-print {
     display: table-cell !important; } }
+
+footer {
+  clear: both;
+  margin-top: 30px;
+  padding: 20px 0; }
+
+footer .footerpage {
+  clear: both;
+  margin: 26px 20px;
+  padding: 26px 10px;
+  border-top: 1px solid #fff; }
+
+.subfooter, .subfooterright {
+  padding: 0 20px;
+  border-left: 1px solid #ccc;
+  margin-top: 20px;
+  font-size: 0.8em; }
+
+.subfooter h3, .subfooterright h3 {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #999; }
+
+.subfooterright {
+  border-right: 1px solid #ccc; }
