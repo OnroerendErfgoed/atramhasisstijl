@@ -4238,7 +4238,7 @@ meta.foundation-mq-topbar {
           color: #FFFFFF; }
     .top-bar-section ul li:hover:not(.has-form) > a {
       background-color: #efefef;
-      background: white;
+      background: #ececec;
       color: #F90; }
     .top-bar-section ul li.active > a {
       background: #008CBA;
@@ -4358,7 +4358,7 @@ meta.foundation-mq-topbar {
           display: none; }
     .top-bar-section li.hover > a:not(.button) {
       background-color: #efefef;
-      background: white;
+      background: #ececec;
       color: #F90; }
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 30px;
@@ -4366,7 +4366,7 @@ meta.foundation-mq-topbar {
       background: white; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         background-color: #efefef;
-        background: white; }
+        background: #ececec; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 30px;
       line-height: 60px;
@@ -4436,7 +4436,7 @@ meta.foundation-mq-topbar {
       .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
         color: #F90;
         background-color: #efefef;
-        background: white; }
+        background: #ececec; }
       .top-bar-section .dropdown li label {
         white-space: nowrap;
         background: #333333; }
@@ -4466,7 +4466,7 @@ meta.foundation-mq-topbar {
         left: 100%; }
   .no-js .top-bar-section ul li:hover > a {
     background-color: #efefef;
-    background: white;
+    background: #ececec;
     color: #F90; }
   .no-js .top-bar-section ul li:active > a {
     background: #008CBA;
@@ -5555,3 +5555,29 @@ th.hide-for-touch {
     display: table-cell !important; }
   th.show-for-print {
     display: table-cell !important; } }
+
+footer {
+  clear: both;
+  margin-top: 0px;
+  padding: 20px 0; }
+
+footer .footerpage {
+  clear: both;
+  margin: 0px 26px;
+  padding: 26px 10px; }
+
+.subfooter, .subfooterright {
+  padding: 0 20px;
+  border-left: 1px solid #d6d6d6;
+  margin-top: 20px;
+  font-size: 0.8em; }
+
+.subfooter h3, .subfooterright h3 {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #999;
+  margin-left: 0; }
+
+.subfooterright {
+  border-right: 1px solid #d6d6d6; }
