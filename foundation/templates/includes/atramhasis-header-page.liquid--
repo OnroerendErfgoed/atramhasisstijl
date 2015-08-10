@@ -12,47 +12,8 @@
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
   </ul>
 
-
-
-
-<form class="right">
-
-  <div class="large-4 columns" style="margin:0;padding:0">
-          <select style="height:40px;border:0;">
-            <option value="husker">Kies een schema</option>
-            <option value="starbuck">2</option>
-            <option value="hotdog">3</option>
-            <option value="apollo">4</option>
-          </select>
-  </div>
-
-  <div class="large-4 columns">
-          <select>
-            <option value="husker">Kies een Stijl</option>
-            <option value="starbuck">Starbuck</option>
-            <option value="hotdog">Hot Dog</option>
-            <option value="apollo">Apollo</option>
-          </select>
-  </div>
-
-   <div class="large-4 columns">
-         <input type="text" placeholder="Zoek naar een label" />
-                  
-          <div class="text-center">
-          <a href="resultv2"><span class="ico ico-mglass-large"></span></a>
-          </div>
-  </div>
-
- </form> 
-
-
-
-
-
-
-
-  <!--section class="top-bar-section">
-  
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
     <ul class="right">
       <li class="divider"></li>
       <li class="has-dropdown">
@@ -85,7 +46,7 @@
 
 
   
-  </section -->
+  </section>
 </nav>
 </div>
 
