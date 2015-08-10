@@ -1,0 +1,8 @@
+{
+  "name": "atramhasisstijl",
+  "version": "0.1.0",
+  "private": "true",
+  "dependencies": {
+	"foundation": "~5.5.0",
+  }
+}
