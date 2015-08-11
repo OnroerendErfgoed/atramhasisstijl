@@ -13,7 +13,8 @@ input.search-input-top {border:0;font-size:0.8em}
 textarea:focus, input:focus, select:focus{ outline: none;}
 *:focus {outline: none;}
 
-select:hover {background:#fff}
+/*select:hover {background:#fff}*/
+
 // header search
 input.search-input-top {background:#fff;border:1px solid #fff !important}
 input.search-input-top:hover {background:#fff;border:1px solid #fff !important}
@@ -45,6 +46,12 @@ ul.downloadtop {margin:30px 0 0 0;padding:0;}
 .downloadtop li {list-style-type:none;font-size:0.6em;padding:0 0 5px 15px;margin:0 0 20px 2px;float:$default-float;}
 .downloadtop li a {border:1px solid #d6d6d6;background:$white;padding:8px 15px;}
 .downloadtop li:first-child {padding:0;}
+
+/*tab nav*/
+.tabnav li {list-style-type:none;float:$default-float;text-transform: uppercase;}
+.tabnav li a {border:1px solid #d6d6d6;background:$white;color:$blue !important}
+.tabnav li a:hover {color:$orange !important;background-color:$aluminum !important}
+.tabnav li:first-child {padding:0;}
 
 
 /* home form */

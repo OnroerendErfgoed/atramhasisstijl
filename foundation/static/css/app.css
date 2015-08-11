@@ -5847,9 +5847,7 @@ textarea:focus, input:focus, select:focus {
 *:focus {
   outline: none; }
 
-select:hover {
-  background: #fff; }
-
+/*select:hover {background:#fff}*/
 input.search-input-top {
   background: #fff;
   border: 1px solid #fff !important; }
@@ -5908,6 +5906,24 @@ ul.downloadtop {
   padding: 8px 15px; }
 
 .downloadtop li:first-child {
+  padding: 0; }
+
+/*tab nav*/
+.tabnav li {
+  list-style-type: none;
+  float: left;
+  text-transform: uppercase; }
+
+.tabnav li a {
+  border: 1px solid #d6d6d6;
+  background: white;
+  color: #2b709d !important; }
+
+.tabnav li a:hover {
+  color: #f77f00 !important;
+  background-color: #efefef !important; }
+
+.tabnav li:first-child {
   padding: 0; }
 
 /* home form */
