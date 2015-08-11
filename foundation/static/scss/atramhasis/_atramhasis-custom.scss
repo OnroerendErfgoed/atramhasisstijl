@@ -9,14 +9,14 @@ a:hover {color:$orange !important;}
 .dropdown {box-shadow:0px 2px 2px #ccc;border:1px solid $aluminum;}
 input.search-input-top {border:0;font-size:0.8em}
 
+// removes blue border when selected
+textarea:focus, input:focus, select:focus{ outline: none;}
+*:focus {outline: none;}
 
-textarea:focus, input:focus, select:focus{
-    outline: none;
-}
-
-*:focus {
-    outline: none;
-}
+select:hover {background:#fff}
+// header search
+input.search-input-top {background:#fff;border:1px solid #fff !important}
+input.search-input-top:hover {background:#fff;border:1px solid #fff !important}
 
 
 // submenu 
