@@ -19,6 +19,16 @@ input.search-input-top {background:#fff;border:1px solid #fff !important;box-sha
 input.search-input-top:hover {background:#fff;border:1px solid #fff !important}
 
 
+.toggle-topbar {background:$white;font-weight:normal}
+.menu-icon  {color:$steel !important; }
+.menu-icon a {color:$steel !important; }
+.menu-icon a:hover {color:$steel !important; }
+.has-form {background-color:$white !important}
+
+.top-bar-section li {background:$white !important}
+.top-bar-section li select {border:0;padding:0 30px 0 10px}
+
+
 // submenu 
 .nostyleList {list-style:none;margin-left: 0;padding-left: 0 }
 h3 {font-size:0.7em;text-transform:uppercase;letter-spacing:4px;color:$steel;margin:30px 0;}
