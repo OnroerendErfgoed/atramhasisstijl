@@ -5847,7 +5847,6 @@ textarea:focus, input:focus, select:focus {
 *:focus {
   outline: none; }
 
-/*select:hover {background:#fff}*/
 input.search-input-top {
   background: #fff;
   border: 1px solid #fff !important; }
@@ -5921,7 +5920,7 @@ ul.downloadtop {
 
 .tabnav li a:hover {
   color: #f77f00 !important;
-  background-color: #efefef !important; }
+  background-color: white !important; }
 
 .tabnav li:first-child {
   padding: 0; }
