@@ -142,5 +142,15 @@ th:first-child div{
   border: none;}
 
 .dllist {font-size:0.8em;margin:0;padding:0}
+
+
+
+/*tabs*/
+.reveal-modal {width:700px;height:500px}
+.tabs {font-size:0.7em !important;text-transform:uppercase;}
+.tab-title {font-size:0.7em !important;border:1px solid #fff;padding:0;margin:0;}
+.tab-title .active {background:#C03 !important}
+
+
 .dllist dt {font-size:1em;padding:0;margin:0;}
 .dllist dd {margin-left:120px;margin-top:-20px;}

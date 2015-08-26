@@ -167,10 +167,11 @@
  
 
 <img src="atramlogo.png" class="left logo-small" title="Atramhasis" style="width:40px;margin:10px 10px 10px 18px">
-<h2 id="firstModalTitle" class="left" style="font-size:1em;padding:10px 0 0 0px">MATERIALS: AARDEWERK</h2>
+<h2 id="firstModalTitle" class="left" style="font-size:1em;padding:10px 0 0 0px">EDIT MATERIALS: AARDEWERK</h2>
+
+
+
 <hr>
-
-
  <form class="">
 
     <div class="large-6 columns">
@@ -197,10 +198,39 @@
 </form>
 
 
+<!--tabs-->
+<div style="padding:18px">
+<ul class="tabs" data-tab>
+  <li class="tab-title active"><a href="#panel1"><small>Labels</small></a></li>
+  <li class="tab-title"><a href="#panel2"><small>notes</small></a></li>
+  <li class="tab-title"><a href="#panel3"><small>relations</small></a></li>
+  <li class="tab-title"><a href="#panel4"><small>matches</small></a></li>
+</ul>
 
-<div class="clearfix" style="border:1px solid #C03">
-  <h5>Labels</H5>
-  <p><a href="#" data-reveal-id="secondModal" class="label labellink">edit</a></p>
+<div class="tabs-content">
+  <div class="content active" id="panel1">
+    <p>Labels</p>
+  </div>
+  <div class="content" id="panel2">
+    <p>Notes</p>
+  </div>
+  <div class="content" id="panel3">
+    <p>Relations</p>
+  </div>
+  <div class="content" id="panel4">
+    <p>Matches</p>
+  </div>
+</div>
+
+</div>
+
+<!--end tabs-->
+
+
+
+
+
+<div class="clearfix">
   <a class="close-reveal-modal" aria-label="Close" style="font-size:1.5em">&#215;</a>
 </div>
 
@@ -211,15 +241,6 @@
 
 
 
-
-<div id="secondModal" class="reveal-modal" data-reveal aria-labelledby="secondModalTitle" aria-hidden="true" role="dialog">
-  
-  <img src="atramlogo.png" class="left logo-small" title="Atramhasis" style="width:40px;margin:10px 10px 10px 18px">
-  <h2 id="firstModalTitle" class="left" style="font-size:1em;padding:10px 0 0 0px">MATERIALS: AARDEWERK</h2>
-  <hr>
-  <p>test text</p>
-  <a class="close-reveal-modal" aria-label="Close" style="font-size:1.5em">&#215;</a>
-</div>
 
 
 <!-- Reveal Modals end -->
