@@ -466,7 +466,7 @@ $hr-margin: rem-calc(20);
 // $include-html-button-classes: $include-html-classes;
 
 // We use these to build padding for buttons.
-// $button-tny: rem-calc(10);
+// $table-tny: rem-calc(10);
 // $button-sml: rem-calc(14);
 // $button-med: rem-calc(16);
 // $button-lrg: rem-calc(18);
@@ -669,9 +669,9 @@ $hr-margin: rem-calc(20);
 // $form-label-bottom-margin: 0;
 // $input-font-family: inherit;
 $input-font-color: rgba(0,0,0,0.99);
-// $input-font-size: rem-calc(14);
-// $input-bg-color: $white;
-// $input-focus-bg-color: scale-color($white, $lightness: -2%);
+$input-font-size: rem-calc(14);
+$input-bg-color: $white;
+$input-focus-bg-color: scale-color($white, $lightness: -2%);
 // $input-border-color: scale-color($white, $lightness: -20%);
 // $input-focus-border-color: scale-color($white, $lightness: -40%);
 // $input-border-style: solid;
@@ -1322,20 +1322,20 @@ $panel-margin-bottom: 0;
 // $include-html-table-classes: $include-html-classes;
 
 // These control the background color for the table and even rows
-// $table-bg: $white;
-// $table-even-row-bg: $snow  ;
+$table-bg: $white;
+$table-even-row-bg: $aluminum;
 
 // These control the table cell border style
-// $table-border-style: solid;
-// $table-border-size: 1px;
-// $table-border-color: $gainsboro;
+$table-border-style: solid;
+$table-border-size: 0px;
+$table-border-color: $mid-gray;
 
 // These control the table head styles
-// $table-head-bg: $white-smoke  ;
-// $table-head-font-size: rem-calc(14);
-// $table-head-font-color: $jet;
-// $table-head-font-weight: $font-weight-bold;
-// $table-head-padding: rem-calc(8 10 10);
+$table-head-bg: $mid-gray;
+$table-head-font-size: rem-calc(12);
+$table-head-font-color: $steel;
+$table-head-font-weight: $font-weight-bold;
+$table-head-padding: rem-calc(4 4 0);
 
 // These control the row padding and font styles
 // $table-row-padding: rem-calc(9 10);
@@ -1353,7 +1353,7 @@ $panel-margin-bottom: 0;
 
 // $include-html-tabs-classes: $include-html-classes;
 
-$tabs-navigation-padding: rem-calc(12);
+$tabs-navigation-padding: rem-calc(2);
 $tabs-navigation-bg-color: $blue;
 $tabs-navigation-active-bg-color: $orange;
 $tabs-navigation-hover-bg-color: scale-color($tabs-navigation-bg-color, $lightness: -6%);
@@ -1365,9 +1365,6 @@ $tabs-content-margin-bottom: rem-calc(24);
 
 $tabs-content-padding: 0;
 $tabs-vertical-navigation-margin-bottom: 1.25rem;
-
-// custom background 
-.tabs-content {background:$white;padding:5px 10px;border:0}
 
 
 
