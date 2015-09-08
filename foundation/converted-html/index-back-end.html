@@ -1,0 +1,372 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Foundation 5</title>
+      <link href="static/css/app.min.css" rel="stylesheet" type="text/css" media="all"/>
+  		<script src="bower_components/foundation/js/vendor/modernizr.js"></script>
+   <!-- link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css' -->
+      <link href='http://fonts.googleapis.com/css?family=Noto+sans' rel='stylesheet' type='text/css'>
+
+<style>
+ul.no_bullet {
+list-style-type: none;
+padding: 0 ;
+margin: 0 ;
+}
+
+li.cube {
+background: url(listitem.png) no-repeat 0 6px;padding:0 0 15px 15px;
+}
+
+</style>
+
+	<!--[if lt IE 8]>
+	<style>
+		ol {margin-left:40px;}
+		ol li {
+			margin-left:0;
+			list-style:decimal;
+		}
+		ol ul li {list-style:disc;}
+	</style>
+	<![endif]-->
+  	
+  <!-- script>
+function showlist(item) {
+ var list = document.getElementById(item);
+ $(list).toggle(500);
+ $('#item2').toggle(500);
+
+}
+
+function showsubList(item, elem) {
+ var list = document.getElementById(item);
+ $("ul#item1list > li:not(:first)").toggle(500);
+ $(list).toggle(500);
+}
+</script -->
+
+	</head>
+	<body>
+		 
+
+<!-- header -->
+
+<div class="sticky">
+
+  <nav class="top-bar" data-topbar role="navigation">
+
+
+
+
+    <ul class="title-area">
+      <li class="name">
+        <a href="index.html"><img src="atramlogo.png" class="left logo-small" title="Atramhasis">
+          <h1 class="left logo-small-text">Atramhasis</h1>
+        </a>
+      </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+
+    <form class="top-bar-section">
+
+      <ul class="left">
+        <li class="divider"></li>
+        <li>
+          <select>
+            <option value="husker">Select Thesaurus</option>
+            <option value="starbuck">Materials</option>
+            <option value="hotdog">3</option>
+            <option value="apollo">4</option>
+          </select>
+        </li>
+        <li class="divider"></li>
+        <li><button class="label labellink">edit</button></li>
+
+      </ul>
+
+      <ul class="right">
+        <li class="divider"></li>
+         <li class="has-form">
+        <div class="row collapse">
+          <div class="left"><input type="text" class="search-input-top" placeholder="Filter by label" style="width:250px"></div>
+        </div>
+      </li>
+       <li class="divider"></li>
+        <li>
+         <select style="width:200px">
+          <option value="husker">Filter by type</option>
+          <option value="starbuck">Starbuck</option>
+          <option value="hotdog">Hot Dog</option>
+          <option value="apollo">Apollo</option>
+        </select>
+      </li>
+      <li class="divider"></li>
+      <li><div class="left"><a href="#"><span class="ico-mglass"></span></a></div>
+    </ul>
+
+  </form>
+
+</nav>
+</div>
+
+<!-- end header -->
+
+<div class="panel">
+
+<section>
+  <div class="container">
+
+    <table class="tablelist">
+      
+      <thead>
+
+        <tr class="header">
+          <th>
+            <div>ID</div>
+          </th>
+
+          <th>
+            <div>Label</div>
+          </th>
+
+          <th>
+            <div>Type</div>
+          </th>
+
+          <th>
+            <div>URI</div>
+          </th>
+
+   
+
+         <th>
+              <div>
+                    <span class="downloadtop right">
+                    <button class="label labellink">+ Add</button>&nbsp;&nbsp;
+                    <button class="label labellink">Import</button>
+                    </span>
+              </div>
+
+          </th>
+
+        
+        </tr>
+ 
+      </thead>
+
+
+
+<tbody>
+<tr>
+<td>1</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td>added 11u57 <a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td>update 00/00/0000 <a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>10</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>11</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>12</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+</table>
+
+</div>
+
+
+
+
+
+    <div class="text-center">
+          <button class="label labellink-outline">meer</button>
+    </div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+    <div class="large-12 columns" style="margin-top:20px">
+
+<div class="row">
+
+<div class="panel clearfix" style="margin-top:20px">
+
+
+<div class="right">
+<button class="label labellink">Edit <i class="fa fa-pencil"></i></button> 
+( <a href="index-back-end-labels.html">edit</a> )
+</div>
+
+
+
+
+
+<h3 class="" style="font-size:1em;margin-top:6px;font-weight:bold">MATERIALS: aardewerk</h3>
+<div style="font-size:0.7em">ID : 1 &nbsp;&nbsp;&nbsp;&nbsp;
+TYPE : concept &nbsp;&nbsp;&nbsp;&nbsp;
+URI : <a href="">https://id.erfgoed.net/thesauri/materialen/1</a>
+</div>
+
+
+<hr>
+
+<div class="large-6 columns" style="margin:0;padding:0">
+
+<h5 style="margin-top:0">LABELS</h5>
+
+<dl class="dllist">
+  <dt>Preferred labels</dt>
+  <dd>aardewerk (nl)</dd>
+  <dt>Alternate labels</dt>
+  <dd>ceramiek (nl) , keramiek (nl)</dd>
+</dl>
+
+</div>
+
+
+<div class="large-6 columns">
+
+<h5 style="margin-top:0">RELATIONS</h5>
+
+<dl class="dllist">
+  <dt>Narrower</dt>
+  <dd>
+<a href="">pijpaarde</a> (2) , <a href="">porselein</a> (5) , <a href="">steengoed</a> (6)</dd>
+</dl>
+
+
+<h5>MATCHES</h5>
+
+
+</div>
+
+<hr>
+<p style="font-size:0.85em;">
+ <strong>Definition :</strong> Aardewerk of keramiek is gebakken klei. Aardewerk wordt gebruikt voor het vervaardigen van vaatwerk, bouwmaterialen, beeldjes, enz… (nl)<br>
+<strong>Note :</strong> Nederlandse Art &amp; Architecture Thesaurus, <a href="http://browser.aat-ned.nl/">http://browser.aat-ned.nl/</a> (nl)</p>
+
+
+</div>
+
+
+  <div style="margin-top:10px">
+    <span class="label labellink-active">aardewerk &nbsp;&nbsp;<small><a href=""><i class="fa fa-remove"></i></a></small></span> &nbsp;
+    <button class="label labellink">pijpaarde</button> &nbsp;
+    <button class="label labellink">steengoed</button> &nbsp;
+    <button class="label labellink">porselijn</button> &nbsp;
+  </div>
+</diV>
+
+
+</diV>
+
+
+
+  		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="assets/js/foundation.min.js"></script>
+<script>
+$(document).foundation();
+</script>
+
+	</body>
+</html>

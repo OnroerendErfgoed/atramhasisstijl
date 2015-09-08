@@ -1,0 +1,517 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Foundation 5</title>
+      <link href="static/css/app.min.css" rel="stylesheet" type="text/css" media="all"/>
+  		<script src="bower_components/foundation/js/vendor/modernizr.js"></script>
+   <!-- link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css' -->
+      <link href='http://fonts.googleapis.com/css?family=Noto+sans' rel='stylesheet' type='text/css'>
+
+<style>
+ul.no_bullet {
+list-style-type: none;
+padding: 0 ;
+margin: 0 ;
+}
+
+li.cube {
+background: url(listitem.png) no-repeat 0 6px;padding:0 0 15px 15px;
+}
+
+</style>
+
+	<!--[if lt IE 8]>
+	<style>
+		ol {margin-left:40px;}
+		ol li {
+			margin-left:0;
+			list-style:decimal;
+		}
+		ol ul li {list-style:disc;}
+	</style>
+	<![endif]-->
+  	
+  <!-- script>
+function showlist(item) {
+ var list = document.getElementById(item);
+ $(list).toggle(500);
+ $('#item2').toggle(500);
+
+}
+
+function showsubList(item, elem) {
+ var list = document.getElementById(item);
+ $("ul#item1list > li:not(:first)").toggle(500);
+ $(list).toggle(500);
+}
+</script -->
+
+	</head>
+	<body>
+		 
+
+<!-- header -->
+
+<div class="sticky">
+
+  <nav class="top-bar" data-topbar role="navigation">
+
+
+
+
+    <ul class="title-area">
+      <li class="name">
+        <a href="index.html"><img src="atramlogo.png" class="left logo-small" title="Atramhasis">
+          <h1 class="left logo-small-text">Atramhasis</h1>
+        </a>
+      </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+
+    <form class="top-bar-section">
+
+      <ul class="left">
+        <li class="divider"></li>
+        <li>
+          <select>
+            <option value="husker">Select Thesaurus</option>
+            <option value="starbuck">Materials</option>
+            <option value="hotdog">3</option>
+            <option value="apollo">4</option>
+          </select>
+        </li>
+        <li class="divider"></li>
+        <li><button class="label labellink">edit</button></li>
+
+      </ul>
+
+      <ul class="right">
+        <li class="divider"></li>
+         <li class="has-form">
+        <div class="row collapse">
+          <div class="left"><input type="text" class="search-input-top" placeholder="Filter by label" style="width:250px"></div>
+        </div>
+      </li>
+       <li class="divider"></li>
+        <li>
+         <select style="width:200px">
+          <option value="husker">Filter by type</option>
+          <option value="starbuck">Starbuck</option>
+          <option value="hotdog">Hot Dog</option>
+          <option value="apollo">Apollo</option>
+        </select>
+      </li>
+      <li class="divider"></li>
+      <li><div class="left"><a href="#"><span class="ico-mglass"></span></a></div>
+    </ul>
+
+  </form>
+
+</nav>
+</div>
+
+<!-- end header -->
+
+<div class="panel">
+
+<section>
+  <div class="container">
+
+    <table class="tablelist">
+      
+      <thead>
+
+        <tr class="header">
+          <th>
+            <div>ID</div>
+          </th>
+
+          <th>
+            <div>Label</div>
+          </th>
+
+          <th>
+            <div>Type</div>
+          </th>
+
+          <th>
+            <div>URI</div>
+          </th>
+
+   
+
+         <th style="width:150px">
+              <div>
+                    <span class="downloadtop right">
+                    <button class="label labellink">+ Add</button>&nbsp;&nbsp;
+                    <button class="label labellink">Import</button>
+                    </span>
+              </div>
+
+          </th>
+
+        
+        </tr>
+ 
+      </thead>
+
+
+
+<tbody>
+<tr>
+<td>1</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td>added 11u57 <a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td>update 00/00/0000 <a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>10</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>11</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+<tr>
+<td>12</td>
+<td>aardewerk</td>
+<td>concept</td>
+<td>https://id.erfgoed.net/thesauri/materialen/1</td>
+<td><a href=""><i class="fa fa-trash"></i></a></td>
+</tr>
+
+</table>
+
+</div>
+
+
+    <div class="text-center">
+          <button class="label labellink-outline">meer</button>
+    </div>
+
+
+</section>
+
+
+
+
+    <div class="large-12 columns" style="margin-top:20px">
+
+      <div class="row">
+
+        <div class="panel clearfix" style="margin-top:20px">
+
+
+          <h3 class="left" style="font-size:1em;margin-top:10px;font-weight:bold">aardewerk</h3>
+
+          <form>
+
+            <div class="left" style="margin:4px 5px 0 20px;width:140px;">
+              <select style="font-size:0.7em;padding:0 5px;margin:0;height:20px">
+                <option value="husker">Select Thesaurus</option>
+                <option value="starbuck">Materials</option>
+                <option value="hotdog">3</option>
+                <option value="apollo">4</option>
+              </select>
+            </div>
+
+
+            <div class="left" style="margin:4px 5px 3px 5px;width:140px">
+             <select style="font-size:0.7em;padding:0 5px;margin:0;height:20px">
+              <option value="husker">Select type</option>
+              <option value="starbuck">concept</option>
+              <option value="hotdog">collection</option>
+            </select>  
+          </div>
+
+        </form>
+
+
+        <div class="right">
+          <button class="label labellink">View</button> ( <a href="index-back-end.html">index back-end</a> )
+        </diV>
+
+
+        <div class="clearfix"></div>
+        <hr>
+
+        <!--tabs-->
+
+        <div class="tabs-center">
+
+          <ul class="tabs" data-tab>
+            <li class="tab-title active"><a href="#panel1"><small>Labels</small></a></li>
+            <li class="tab-title"><a href="#panel2"><small>notes</small></a></li>
+            <li class="tab-title"><a href="#panel3"><small>relations</small></a></li>
+            <li class="tab-title"><a href="#panel4"><small>matches</small></a></li>
+          </ul>
+
+        </div>
+
+
+
+
+        <div class="tabs-content">
+          <div class="content active" id="panel1">
+
+
+           <table class="tablecontent">
+             <form>     
+              <thead>
+                <tr>
+                  <th>
+                    <div><input type="text" placeholder="Type title ..." /></div>
+                  </th>
+                  <th>
+
+                    <select>
+                      <option value="husker">nl</option>
+                      <option value="starbuck">fr</option>
+                      <option value="hotdog">en</option>
+                      <option value="hotdog">de</option>
+                    </select>
+
+                  </th>
+                  <th>
+
+                   <select style="width:240px">
+                    <option value="husker">label type</option>
+                    <option value="starbuck">fr</option>
+                    <option value="hotdog">en</option>
+                    <option value="hotdog">de</option>
+                  </select>
+                </th>
+                <th>
+                  <button class="right label labellink">
+                    <i class="fa fa-plus" style="font-size:2em"></i>
+                  </button> 
+                </th>
+              </tr>
+            </thead>
+          </form>
+
+
+          <tbody>
+
+            <tr>
+              <td>aardewerk</td>
+              <td>nl</td>
+              <td>prefered</td>
+              <td><a href=""><i class="fa fa-trash"></i></a></td>
+            </tr>
+
+            <tr>
+              <td>ceramiek</td>
+              <td>nl</td>
+              <td>alternate</td>
+              <td><a href=""><i class="fa fa-trash"></i></a></td>
+            </tr>
+
+            <tr>
+              <td>ceramiek</td>
+              <td>nl</td>
+              <td>alternate</td>
+              <td><a href=""><i class="fa fa-trash"></i></a></td>
+            </tr>
+
+          </tbody>
+
+        </table>
+
+        <hr>
+        <div class="" style="text-align:center">
+          <button class="label labellink">save</button>
+        </div>
+
+
+      </div>
+
+
+
+      <div class="content" id="panel2">
+
+
+            <table class="tablecontent">
+             <form>     
+              <thead>
+                <tr>
+                  <th>
+                    <div><input type="text" placeholder="Type notes ..." /></div>
+                  </th>
+                  <th>
+
+                    <select>
+                      <option value="husker">nl</option>
+                      <option value="starbuck">fr</option>
+                      <option value="hotdog">en</option>
+                      <option value="hotdog">de</option>
+                    </select>
+
+                  </th>
+                  <th>
+
+                   <select style="width:240px">
+                    <option value="husker">Type of note</option>
+                    <option value="starbuck">fr</option>
+                    <option value="hotdog">en</option>
+                    <option value="hotdog">de</option>
+                  </select>
+                </th>
+                <th>
+                  <button class="right label labellink">
+                    <i class="fa fa-plus" style="font-size:2em"></i>
+                  </button> 
+                </th>
+              </tr>
+            </thead>
+          </form>
+
+
+          <tbody>
+
+            <tr>
+              <td>+EDITOR</td>
+              <td>nl</td>
+              <td>definition</td>
+              <td><a href=""><i class="fa fa-trash"></i></a></td>
+            </tr>
+
+            <tr>
+              <td>+EDITOR</td>
+              <td>nl</td>
+              <td>note</td>
+              <td><a href=""><i class="fa fa-trash"></i></a></td>
+            </tr>
+
+
+          </tbody>
+
+        </table>
+
+        <hr>
+        <div class="" style="text-align:center">
+          <button class="label labellink">save</button>
+      </div>
+
+   </div>
+
+      <div class="content" id="panel3">
+        <p>Relations</p>
+      </div>
+      <div class="content" id="panel4">
+        <p>Matches</p>
+      </div>
+    </div>
+
+
+
+
+    <!--end tabs-->
+
+    <!-- table -->
+
+    <!-- end table -->
+
+  </diV>         
+
+  <div style="margin-top:10px">
+    <span class="label labellink-active">aardewerk &nbsp;&nbsp;<small><a href=""><i class="fa fa-remove"></i></a></small>
+    </span> &nbsp;
+    <button class="label labellink">pijpaarde</button> &nbsp;
+    <button class="label labellink">steengoed</button> &nbsp;
+    <button class="label labellink">porselijn</button> &nbsp;
+
+  </div>
+</diV>
+
+
+</diV>
+
+
+
+  		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="assets/js/foundation.min.js"></script>
+<script>
+$(document).foundation();
+</script>
+
+	</body>
+</html>
