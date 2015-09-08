@@ -668,7 +668,7 @@ $hr-margin: rem-calc(20);
 // $form-label-small-transform: capitalize;
 // $form-label-bottom-margin: 0;
 // $input-font-family: inherit;
-// $input-font-color: rgba(0,0,0,0.75);
+$input-font-color: rgba(0,0,0,0.99);
 // $input-font-size: rem-calc(14);
 // $input-bg-color: $white;
 // $input-focus-bg-color: scale-color($white, $lightness: -2%);
@@ -677,7 +677,7 @@ $hr-margin: rem-calc(20);
 // $input-border-style: solid;
 // $input-border-width: 1px;
 // $input-border-radius: $global-radius;
-// $input-disabled-bg: $gainsboro;
+$input-disabled-bg: $white;
 // $input-disabled-cursor: $cursor-default-value;
 // $input-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
 
@@ -827,15 +827,15 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%);
 // $include-html-label-classes: $include-html-classes;
 
 // We use these to style the labels
-// $label-padding: rem-calc(4 8 4);
-// $label-radius: $global-radius;
+$label-padding: rem-calc(4 8 4);
+//$label-radius: $global-radius;
 
 // We use these to style the label text
-// $label-font-sizing: rem-calc(11);
-// $label-font-weight: $font-weight-normal;
-// $label-font-color: $oil;
-// $label-font-color-alt: $white;
-// $label-font-family: $body-font-family;
+$label-font-sizing: rem-calc(11);
+$label-font-weight: $font-weight-normal;
+$label-font-color: $white;
+$label-font-color-alt: $white;
+$label-font-family: $body-font-family;
 
 
 
@@ -1353,22 +1353,23 @@ $panel-margin-bottom: 0;
 
 // $include-html-tabs-classes: $include-html-classes;
 
-// $tabs-navigation-padding: rem-calc(12);
-// $tabs-navigation-bg-color: $mid-purple;
-// $tabs-navigation-active-bg-color: $dark-purple;
-// $tabs-navigation-hover-bg-color: scale-color($tabs-navigation-bg-color, $lightness: -6%);
-// $tabs-navigation-font-color: $white;
-// $tabs-navigation-active-font-color: $tabs-navigation-font-color;
-// $tabs-navigation-font-size: rem-calc(14);
-// $tabs-navigation-font-family: $body-font-family;
+$tabs-navigation-padding: rem-calc(12);
+$tabs-navigation-bg-color: $blue;
+$tabs-navigation-active-bg-color: $orange;
+$tabs-navigation-hover-bg-color: scale-color($tabs-navigation-bg-color, $lightness: -6%);
+$tabs-navigation-font-color: $white !important;
+$tabs-navigation-active-font-color: $tabs-navigation-font-color;
+$tabs-navigation-font-size: rem-calc(14);
+$tabs-navigation-font-family: $body-font-family;
+$tabs-content-margin-bottom: rem-calc(24);
 
-// $tabs-content-margin-bottom: rem-calc(24);
-// $tabs-content-padding: $column-gutter/2;
-
-// $tabs-vertical-navigation-margin-bottom: 1.25rem;
+$tabs-content-padding: 0;
+$tabs-vertical-navigation-margin-bottom: 1.25rem;
 
 // custom background 
-// .tabs-content {background:$light-gray;padding:5px 10px;border:1px solid $dark-purple}
+.tabs-content {background:$white;padding:5px 10px;border:0}
+
+
 
 
 // 32. Thumbnails
