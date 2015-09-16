@@ -170,8 +170,6 @@
       <div class="row">
 
         <div class="panel clearfix" style="margin-top:20px">
-
-
           <h3 class="left" style="font-size:1em;margin-top:10px;font-weight:bold">aardewerk</h3>
 
           <form>
@@ -184,7 +182,6 @@
                 <option value="apollo">4</option>
               </select>
             </div>
-
 
             <div class="left" style="margin:4px 5px 3px 5px;width:140px">
              <select style="font-size:0.7em;padding:0 5px;margin:0;height:20px">
@@ -367,14 +364,19 @@
 
     <div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
 
-      <div style="padding:20px">
-        
-        <h2 style="font-size:1em;margin-top:10px;text-transform:uppercase">Add relations</h2>
+<div style="padding:20px">
+
+        <header class="paneltitle">
+            <h3 class="left" style="margin-top:3px">aardewerk</h3>
+            <span style="text-transform:uppercase;margin-left:10px">Add relations</span>
+        </header> 
 
           <hr>
+
         <h3 style="margin:0 0 20px 0">Choose concept</h3>
 
-        <div style="border:1px solid #CCC;height:200px">
+        <!-- temp -->
+        <div style="border:1px solid #ccc;height:200px">
           tree ...
           materials
         </div>
@@ -382,7 +384,7 @@
         <h3 style="margin:20px 0">Add selection as ...</h3>
 
         <div class="text-center">
-          <select style="font-size:0.7em;padding:0 5px;margin:0 0 20px 0;height:20px">
+          <select>
             <option value="">---</option>
             <option value="">Broader</option>
             <option value="">Narrower</option>
@@ -390,7 +392,10 @@
             <option value="">Member of</option>
             <option value="">Subordinate arrays</option>
           </select>
-          <button class="label labellink disabled">Save relation</button> <button class="label labellink">Save relation</button> <button class="label labellink">Save relation &amp; close</button>
+          <br><br>
+          <button class="label labellink disabled">Save relation</button>
+          <button class="label labellink">Save relation</button>
+          <button class="label labellink">Save all relations &amp; close</button>
         </div>
 
 
@@ -423,7 +428,7 @@
 
           <tr>
             <td style="vertical-align:top"><strong>Broader</strong></td>
-            <td>late bronstijd (1217)<br>
+            <td>late bronstijd (1217) <span class="feedback-add">(recent toegevoegd)</span><br>
               late bronstijd (1217)<br>
               late bronstijd (1217)<br>
               late bronstijd (1217)
@@ -439,7 +444,7 @@
 
           <tr>
             <td style="vertical-align:top"><strong>Narrower</strong></td>
-            <td>late bronstijd (1217) <br>
+            <td>late bronstijd (1217) <span class="feedback-add">(recent toegevoegd)</span><br>
               late bronstijd (1217) <br>
             </td>
            

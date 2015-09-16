@@ -238,36 +238,46 @@ $font-weight-bold: bold !default;
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-// $header-font-family: $body-font-family;
-// $header-font-weight: $font-weight-normal;
-// $header-font-style: normal;
-// $header-font-color: $dark-purple;
-// $header-line-height: 1.4;
-// $header-top-margin: .2rem;
-// $header-bottom-margin: .5rem;
-// $header-text-rendering: optimizeLegibility;
+ $header-font-family: $body-font-family;
+ $header-font-weight: $font-weight-normal;
+ $header-font-style: normal;
+ $header-font-color: $steel;
+ //$header-line-height: 1.4;
+ //$header-top-margin: .2rem;
+ //$header-bottom-margin: .5rem;
+ $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
- $h1-font-size: rem-calc(44);
- $h2-font-size: rem-calc(37);
- $h3-font-size: rem-calc(27);
- $h4-font-size: rem-calc(23);
- $h5-font-size: rem-calc(18);
+
+ //$h1-font-size: rem-calc(44);
+ //$h2-font-size: rem-calc(37);
+ //$h3-font-size: rem-calc(27);
+ //$h4-font-size: rem-calc(23);
+ //$h5-font-size: rem-calc(18);
+ //$h6-font-size: 1rem;
+
+ $h1-font-size: rem-calc(30);
+ $h2-font-size: rem-calc(24);
+ $h3-font-size: rem-calc(11);
+ $h4-font-size: rem-calc(11);
+ $h5-font-size: rem-calc(10);
  $h6-font-size: 1rem;
 
+
 // We use these to control header size reduction on small screens
-// $h1-font-reduction: rem-calc(10) !default;
-// $h2-font-reduction: rem-calc(10) !default;
-// $h3-font-reduction: rem-calc(5) !default;
-// $h4-font-reduction: rem-calc(5) !default;
-// $h5-font-reduction: 0 !default;
-// $h6-font-reduction: 0 !default;
+$h1-font-reduction: rem-calc(10) !default;
+$h2-font-reduction: rem-calc(10) !default;
+$h3-font-reduction: rem-calc(5) !default;
+$h4-font-reduction: rem-calc(5) !default;
+$h5-font-reduction: 0 !default;
+$h6-font-reduction: 0 !default;
 
 // These control how subheaders are styled.
-// $subheader-line-height: 1.4;
-// $subheader-font-color: scale-color($header-font-color, $lightness: 35%);
-// $subheader-font-weight: $font-weight-normal;
-// $subheader-top-margin: .2rem;
+
+//$subheader-line-height: 1.4;
+$subheader-font-color: scale-color($header-font-color, $lightness: 35%);
+$subheader-font-weight: $font-weight-normal;
+ //$subheader-top-margin: .2rem;
 // $subheader-bottom-margin: .5rem;
 
 // A general <small> styling
@@ -507,8 +517,8 @@ $hr-margin: rem-calc(20);
 // $button-round: $global-rounded;
 
 // We use this to set default opacity and cursor for disabled buttons.
-// $button-disabled-opacity: 0.7;
-// $button-disabled-cursor: $cursor-default-value;
+ $button-disabled-opacity: 0.2;
+ //$button-disabled-cursor: $cursor-default-value;
 
 // 06. Button Groups
 // - - - - - - - - - - - - - - - - - - - - - - - - -

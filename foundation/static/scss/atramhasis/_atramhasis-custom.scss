@@ -31,10 +31,16 @@ input.search-input-top:hover {background:$white;border:1px solid #fff !important
 
 // submenu 
 .nostyleList {list-style:none;margin-left: 0;padding-left: 0 }
-h3 {font-size:0.7em;text-transform:uppercase;letter-spacing:4px;color:$steel;margin:30px 0;}
-h4 {font-size:0.6em;text-transform:uppercase;letter-spacing:4px;color:$steel;margin:30px 20px;}
-h5 {font-size:0.7em;letter-spacing:1px;color:$steel;margin:10px 0px;}
+
+
+h3, h4 {text-transform:uppercase;letter-spacing:4px;margin:30px 0;}
+h4 {margin:30px 20px;}
+h5 {letter-spacing:1px;margin:10px 0px;}
 h5 a {font-weight:bold}
+
+header.paneltitle h3 {font-size:1em;margin:6px 0 0 0;font-weight:bold}
+header.paneltitle span {font-size:0.7em;margin:0 10px 0 0}
+
 
 
 ul.no_bullet {
@@ -138,15 +144,6 @@ table.tablelist2 {width:100%;border-collapse: collapse}
 
 
 
-
-
-
-
-
-
-
-
-
 .tablecontent {width:100%;border:none;border-collapse: collapse;margin-top:20px;}
 
 .tablecontent thead select { font-size:0.9em !important;height:30px;margin:0 0 4px 0}
@@ -182,3 +179,11 @@ table.tablelist2 {width:100%;border-collapse: collapse}
 
 .dllist dt {font-size:1em;padding:0;margin:0;}
 .dllist dd {margin-left:120px;margin-top:-20px;}
+
+
+
+
+select {font-size:0.7em;padding:0 5px;margin:0;height:20px}
+.feedback-add {color:#0C3;padding:2px 5px}
+
+
