@@ -5835,6 +5835,7 @@ a:hover {
 
 .dropdown {
   box-shadow: 0px 2px 2px #ccc;
+  background: white;
   border: 1px solid #efefef; }
 
 input.search-input-top {
@@ -5848,12 +5849,12 @@ textarea:focus, input:focus, select:focus {
   outline: none; }
 
 input.search-input-top {
-  background: #fff;
+  background: white;
   border: 1px solid #fff !important;
   box-shadow: none; }
 
 input.search-input-top:hover {
-  background: #fff;
+  background: white;
   border: 1px solid #fff !important; }
 
 .toggle-topbar {
@@ -6042,6 +6043,30 @@ table.tablelist {
 .tablelist th:last-child, .tablelist td:last-child {
   text-align: right;
   /*background:$white;*/ }
+
+table.tablelist2 {
+  width: 100%;
+  border-collapse: collapse; }
+
+.tablelist2 td {
+  color: #000;
+  font-size: 0.8em !important;
+  padding: 0;
+  border-collapse: collapse; }
+
+.tablelist2 th div {
+  border-collapse: collapse;
+  color: #fff;
+  padding: 16px 0px 0 0px;
+  top: 0;
+  margin: 0 0 0 0;
+  line-height: normal;
+  color: #333;
+  font-weight: normal;
+  font-size: 0.8em; }
+
+.tablelist2 th:last-child, .tablelist2 td:last-child {
+  text-align: right; }
 
 .tablecontent {
   width: 100%;
